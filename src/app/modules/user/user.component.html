@@ -1,0 +1,23 @@
+<p>user works!</p>
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Email</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users.profiles">
+        <td>{{user.email}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.age}}</td>
+        <td>{{user.location}}</td>
+      </tr>
+      <tr>
+        <td colspan="6" *ngIf="users.profiles.length == 0">No Data</td>
+      </tr> 
+    </tbody>   
+  </table>
+ 

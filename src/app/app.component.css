@@ -1,0 +1,54 @@
+.example-icon {
+    padding: 0 14px;
+    cursor: pointer;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-toolbar {
+    background: #ff4040 !important;
+    color: #fff;
+}  
+.example-container {
+    height: 100%;
+}
+.mat-drawer{
+    box-shadow: rgb(219, 219, 219) 3px 0px 9px;
+}
+.menu-icon, .menu-item{
+    color:#ff4040 !important;
+}
+.ham-menu{
+    padding-right:15px;
+    cursor: pointer;
+}
+.m-item{
+    cursor: pointer;
+}
+/* .m-item:hover, .menu-btn:hover{
+    background-color: grey;
+} */
+
+.ham-btn{
+    border: none;
+    background: none;
+    color: white;
+    padding: 0px;
+    width: 50px;
+    margin-left: -15px;
+}
+.menu-item{
+    padding-left: 20px;
+}
+.menu-btn{
+    width: 100%;
+    text-align: left;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.mat-list-item-content {
+    padding : 0px !important;
+}
